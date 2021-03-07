@@ -4,7 +4,5 @@ node_modules/
 conf.json
 .vscode/launch.json
 docker-config.txt
-master_table_raw.csv
-master_table_raw_20210306.csv
-master_table_raw_20210307am.csv
-master_table_raw_dry_run.csv
+*.csv
+reports/*.pdf
