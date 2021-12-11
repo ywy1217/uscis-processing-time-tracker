@@ -16,7 +16,7 @@ const fastcsv = require('fast-csv');
 var URL = 'https://egov.uscis.gov/casestatus/mycasestatus.do?appReceiptNum=RECEIPT_NUM';
 var today = new Date();
 
-var failedFile = './raw_data/updater_raw_2021-11-25_failed.csv';
+var failedFile = './raw_data/updater_raw_2021-12-04_failed.csv';
 var saveFile = './raw_data/updater_raw_'+today.toISOString().substring(0,19).replace(/:/g,"")+'_append_fail.csv';
 var errFile = './raw_data/updater_raw_'+today.toISOString().substring(0,19).replace(/:/g,"")+'_failed.csv';
 var totalRetrieved = 0;

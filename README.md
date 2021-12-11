@@ -3,7 +3,7 @@
 ## Disclaimer: read LICENSE and the following disclaimer before use
 DO NOT use the software for commercial purpose.
 DO NOT abuse the software (including but not limited to querying the data from any website at a very high frequency and data rate). Your IP may be blocked by doing that.
-The user will be responsible for any consequences of using this software.
+The user shall be responsible for any consequences of using this software.
 
 
 ## Start a master table (a manual process at the moment)

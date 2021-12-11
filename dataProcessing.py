@@ -13,10 +13,12 @@ status_dateCol_map = {'Received': 'receipt_Date', 'Processing': None, 'Fingerpri
                       'RFE': 'RFE_Date', 'Interview': 'interview_Date', 'Rejected': 'rejection_Date',
                       'Approved': 'approval_Date'}
 # This is a fake case
-track_case = {'receiptID': 2190390000, # MSC
+track_case = {'receiptID': 2190390000,  # MSC
               'receipt_Date': '2020-10-01',
               'fingerprint_Date': '2021-01-01',
               'RFE_Date': '2021-05-01',
+              'interview_Date': None,
+              'approval_Date': None,
               'status': 'RFE',
               'lastUpdate': '2021-05-01'
               }

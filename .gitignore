@@ -1,8 +1,10 @@
 .DS_Store
 .ipynb_checkpoints/
 node_modules/
+__pycache__/
 conf.json
 .vscode/launch.json
 docker-config.txt
 *.csv
 reports/*.pdf
+!reports/example_report.pdf

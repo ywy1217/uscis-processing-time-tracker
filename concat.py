@@ -1,5 +1,6 @@
+# Only for raw data concatenating without sort
+
 f_out = open('./raw_data/out.csv', 'w')
-# this line is only for raw data concatenating
 f_out.write('receiptID,title,text\n')
 
 files = ['./raw_data/crawl_raw_2021-06-18.csv', './raw_data/crawl_raw_2021-06-19T184555_append_fail.csv']
